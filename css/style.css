@@ -1,0 +1,130 @@
+body {
+	height: 3000px;
+}
+
+/*header start*/
+.header {
+	padding: 20px 15px;
+	background-color: lightgray;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10000000;
+}
+
+.logo {
+	vertical-align: middle;
+	margin-right: 50px;
+}
+
+.nav {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.nav-li {
+	display: inline-block;
+	margin-right: 30px;
+}
+/*header end*/
+
+/*section 1 start*/
+.section-1 {
+	margin-top: 57.42px;
+	margin-bottom: 60px;
+}
+
+.section-1-text {
+	width: 500px;
+	background-color: aqua;
+}
+/*section 1 end*/
+
+/*section 2 start*/
+
+.section-2 {
+	margin-bottom: 50px;
+}
+
+.relative-1 {
+	width: 500px;
+	height: 500px;
+	background-color: darkblue;
+	position: relative;
+}
+
+.absolute-1 {
+	width: 100px;
+	height: 100px;
+	background-color: darkred;
+	position: absolute;
+	z-index: 2;
+}
+
+.absolute-2 {
+	width: 100px;
+	height: 100px;
+	background-color: darkgreen;
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	z-index: 3;
+}
+
+.absolute-3 {
+	width: 100px;
+	height: 100px;
+	background-color: darkcyan;
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	z-index: 1;
+
+}
+/*section 2 end*/
+
+/*section 3 start*/
+.secton-3 {
+	margin-bottom: 50px;
+}
+
+.relative-2 {
+	width: 500px;
+	height: 500px;
+	background-color: darkblue;
+	position: relative;
+}
+
+.absolute-4 {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*section 3 end*/
+
+/*section 4 start*/
+.section-4-wrapper {
+	position: relative;
+	display: inline-block;
+}
+.section-4-title {
+	position: absolute;
+	font-size: 40px;
+	color: red;
+	top: 20px;
+	right: 20px;
+}
+/*section 4 end*/
+/*other*/
+.thumbnail {
+	position: fixed;
+	right: 25px;
+	bottom: 25px;
+	width: 50px;
+}
+/*other*/
